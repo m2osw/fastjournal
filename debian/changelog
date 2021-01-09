@@ -1,5 +1,12 @@
 fastjournal (1.0.1.0~bionic) bionic; urgency=high
 
+  * Fixed the name, it's just a lib and we need the -dev (and it was there
+    already, just it was missing the -dev)
+
+ -- Alexis Wilke <alexis@m2osw.com>  Sat, 09 Jan 2021 14:42:43 -0800
+
+fastjournal (1.0.1.0~bionic) bionic; urgency=high
+
   * Added missing advgetopt dependency.
 
  -- Alexis Wilke <alexis@m2osw.com>  Sat, 09 Jan 2021 14:15:27 -0800
