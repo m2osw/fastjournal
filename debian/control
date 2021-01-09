@@ -1,7 +1,8 @@
 Source: fastjournal
 Priority: extra
-Maintainer: R. Douglas Barbieri <doug@dooglio.net>
-Build-Depends: cmake,
+Maintainer: Alexis Wilke <alexis@m2osw.com>
+Build-Depends: advgetopt (>= 2.0.16.1~bionic),
+    cmake,
     debhelper,
     doxygen,
     eventdispatcher (>= 1.1.4.0~bionic),
