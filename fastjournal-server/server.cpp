@@ -131,7 +131,7 @@ server::server(int argc, char * argv[])
     snaplogger::process_logger_options(f_opt, "/etc/fastjournal/logger");
 
     f_signal_handler->add_terminal_signals(ed::signal_handler::DEFAULT_SIGNAL_TERMINAL);
-    f_signal_handler->add_ignore_signals(ed::signal_handler::DEFAULT_SIGNAL_IGNORE);
+    f_signal_handler->add_ignored_signals(ed::signal_handler::DEFAULT_SIGNAL_IGNORE);
 
     // remove once we have the next version
     f_signal_handler->set_show_stack(ed::signal_handler::DEFAULT_SHOW_STACK);
