@@ -1,44 +1,13 @@
 #!/bin/sh
 #
-# Sample script to run make without having to retype the long path each time
-# This will work if you built the environment using our ~/bin/build-snap script
+# See the snapcmakemodules project for details about this script
+#     https://github.com/m2osw/snapcmakemodules
 
-PROCESSORS=`nproc`
+if test -x ../../cmake/scripts/mk
+then
+	../../cmake/scripts/mk $*
+else
+	echo "error: could not locate the cmake mk script"
+	exit 1
+fi
 
-case $1 in
-"-l")
-	make -C ../../../BUILD/contrib/fastjournal 2>&1 | less -SR
-	;;
-
-"-d")
-	rm -rf ../../../BUILD/contrib/fastjournal/doc/fastjournal-doc-1.0.tar.gz
-	make -C ../../../BUILD/contrib/fastjournal
-	;;
-
-"-i")
-	make -j${PROCESSORS} -C ../../../BUILD/contrib/fastjournal install
-	;;
-
-"-c")
-	dev/coverage
-	;;
-
-"-t")
-	(
-		if make -j${PROCESSORS} -C ../../../BUILD/contrib/fastjournal
-		then
-			shift
-			../../../BUILD/contrib/fastjournal/tests/unittest --progress $*
-		fi
-	) 2>&1 | less -SR
-	;;
-
-"")
-	make -j${PROCESSORS} -C ../../../BUILD/contrib/fastjournal
-	;;
-
-*)
-	echo "error: unknown command line option \"$1\""
-	;;
-
-esac

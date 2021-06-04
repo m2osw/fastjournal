@@ -1,3 +1,11 @@
+fastjournal (1.0.2.0~bionic) bionic; urgency=high
+
+  * Fixed the snaplogger options calls to detect failure properly.
+  * Updated the mk script.
+  * Added a .gitignore file.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Fri, 04 Jun 2021 14:30:15 -0700
+
 fastjournal (1.0.1.0~bionic) bionic; urgency=high
 
   * Fixed the name, it's just a lib and we need the -dev (and it was there

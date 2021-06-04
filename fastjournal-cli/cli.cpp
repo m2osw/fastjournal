@@ -1,23 +1,21 @@
-/*
- * Copyright (c) 2020  Made to Order Software Corp.  All Rights Reserved
- *
- * https://snapwebsites.org/
- * contact@m2osw.com
- *
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License along
- * with this program; if not, write to the Free Software Foundation, Inc.,
- * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
- */
+// Copyright (c) 2020-2021  Made to Order Software Corp.  All Rights Reserved
+//
+// https://snapwebsites.org/project/fastjournal
+// contact@m2osw.com
+//
+// This program is free software; you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation; either version 2 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along
+// with this program; if not, write to the Free Software Foundation, Inc.,
+// 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 /** \file
  * \brief The Fast Journal CLI.
@@ -35,6 +33,11 @@
 // fastjournal lib
 //
 #include    <fastjournal/version.h>
+
+
+// avdgetopt lib
+//
+#include    <advgetopt/exception.h>
 
 
 // snaplogger lib
@@ -124,7 +127,15 @@ cli::cli(int argc, char * argv[])
 {
     snaplogger::add_logger_options(f_opt);
     f_opt.finish_parsing(argc, argv);
-    snaplogger::process_logger_options(f_opt, "/etc/fastjournal/logger");
+    if(!snaplogger::process_logger_options(
+                      f_opt
+                    , "/etc/fastjournal/logger"
+                    , std::cout
+                    , false))
+    {
+        // exit on any error
+        throw advgetopt::getopt_exit("logger options generated an error.", 0);
+    }
 }
 
 

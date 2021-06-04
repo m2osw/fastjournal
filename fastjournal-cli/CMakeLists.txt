@@ -1,5 +1,4 @@
-#
-# Copyright (c) 2020 Made to Order Software Corp.
+# Copyright (c) 2020-2021 Made to Order Software Corp.
 #
 # https://snapwebsites.org/project/fastjournal
 # contact@m2osw.com
@@ -22,7 +21,6 @@
 # CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-#
 
 ##
 ## fastjournal CLI
