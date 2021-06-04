@@ -14,7 +14,7 @@ Build-Depends: cmake,
     snaplogger (>= 1.0.12.0~bionic)
 Standards-Version: 3.9.4
 Section: libs
-Homepage: https://snapwebsites.org/
+Homepage: https://snapwebsites.org/project/fastjournal
 Vcs-Git: https://github.com/m2osw/snapcpp.git
 Vcs-Browser: https://github.com/m2osw/fastjournal
 
