@@ -11,7 +11,7 @@ Build-Depends: cmake,
     libexcept-dev (>= 1.1.0.0~bionic),
     snapcatch2 (>= 2.7.2.10~bionic),
     snapcmakemodules (>= 1.0.35.3~bionic),
-    snaplogger (>= 1.0.12.0~bionic)
+    snaplogger-dev (>= 1.0.12.0~bionic)
 Standards-Version: 3.9.4
 Section: libs
 Homepage: https://snapwebsites.org/project/fastjournal

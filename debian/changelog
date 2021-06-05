@@ -1,3 +1,9 @@
+fastjournal (1.0.4.0~bionic) bionic; urgency=high
+
+  * We have to depend on snaplogger-dev.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Fri, 04 Jun 2021 23:15:05 -0700
+
 fastjournal (1.0.3.0~bionic) bionic; urgency=high
 
   * We have to depend on eventdispatcher-dev.
