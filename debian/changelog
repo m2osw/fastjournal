@@ -1,3 +1,9 @@
+fastjournal (1.0.3.0~bionic) bionic; urgency=high
+
+  * We have to depend on eventdispatcher-dev.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Fri, 04 Jun 2021 22:23:04 -0700
+
 fastjournal (1.0.2.0~bionic) bionic; urgency=high
 
   * Fixed the snaplogger options calls to detect failure properly.
