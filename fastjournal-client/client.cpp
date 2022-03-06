@@ -104,6 +104,7 @@ advgetopt::options_environment const g_options_environment =
     .f_options = g_options,
     .f_options_files_directory = nullptr,
     .f_environment_variable_name = "FASTJOURNAL_CLIENT_OPTIONS",
+    .f_environment_variable_intro = nullptr,
     .f_section_variables_name = nullptr,
     .f_configuration_files = nullptr,
     .f_configuration_filename = "client.conf",
