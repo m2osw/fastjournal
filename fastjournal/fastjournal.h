@@ -1,5 +1,5 @@
 /*    libutf8/libutf8.h -- convert between wchar_t and UTF-8 encodings
- *    Copyright (C) 2000-2019  Made to Order Software Corporation
+ *    Copyright (c) 2020-2022  Made to Order Software Corp.  All Rights Reserved
  *
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License as published by
