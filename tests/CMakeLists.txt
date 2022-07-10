@@ -1,6 +1,6 @@
 # Copyright (c) 2020-2022  Made to Order Software Corp.  All Rights Reserved
 #
-# https://sourceforge.net/projects/unigw/
+# https://snapwebsites.org/project/fastjournal
 # contact@m2osw.com
 #
 # Permission is hereby granted, free of charge, to any person obtaining a

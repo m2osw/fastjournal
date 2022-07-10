@@ -1,7 +1,6 @@
-#
 # Copyright (c) 2020-2022  Made to Order Software Corp.  All Rights Reserved
 #
-# https://snapwebsites.org/
+# https://snapwebsites.org/project/fastjournal
 # contact@m2osw.com
 #
 # Permission is hereby granted, free of charge, to any person obtaining a
@@ -22,8 +21,6 @@
 # CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-#
-
 
 ##
 ## Documentation
