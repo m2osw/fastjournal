@@ -1,3 +1,11 @@
+fastjournal (1.0.7.1~bionic) bionic; urgency=high
+
+  * Fixed compat version.
+  * Added/fixed some URLs.
+  * Updated copyright notices.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Mon, 11 Jul 2022 08:20:50 -0700
+
 fastjournal (1.0.7.0~bionic) bionic; urgency=high
 
   * Added the Environment Variable Into.
