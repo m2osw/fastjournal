@@ -3,6 +3,7 @@
 
 [Unit]
 Description=Fast Journal Backend Daemon
+Documentation=https://snapwebsites.org/project/fastjournal file:/usr/share/doc/fastjournal-doc/html/
 
 [Service]
 Type=simple
