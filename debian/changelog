@@ -1,4 +1,4 @@
-fastjournal (1.0.7.1~jammy) jammy; urgency=high
+fastjournal (1.0.8.0~jammy) jammy; urgency=high
 
   * Fixed compat version.
   * Added/fixed some URLs.
