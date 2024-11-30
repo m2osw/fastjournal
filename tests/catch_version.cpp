@@ -19,21 +19,26 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
+// fastjournal
+//
+#include    <fastjournal/version.h>
+
+
 // self
 //
-#include "main.h"
+#include    "catch_main.h"
 
 
-// fastjournal lib
+// last include
 //
-#include "fastjournal/version.h"
+#include    <snapdev/poison.h>
 
 
 
 
-CATCH_TEST_CASE("Version", "[version]")
+CATCH_TEST_CASE("version", "[version]")
 {
-    CATCH_START_SECTION("verify runtime vs compile time version numbers")
+    CATCH_START_SECTION("version: verify runtime vs compile time version numbers")
     {
         CATCH_REQUIRE(fastjournal::get_major_version()   == LIBFASTJOURNAL_VERSION_MAJOR);
         CATCH_REQUIRE(fastjournal::get_release_version() == LIBFASTJOURNAL_VERSION_MINOR);
