@@ -35,17 +35,17 @@
 #include    "client.h"
 
 
-// C++ lib
+// C++
 //
 #include    <iostream>
 
 
-// advgetopt lib
+// advgetopt
 //
 #include    <advgetopt/exception.h>
 
 
-// snapdev lib
+// last include
 //
 #include    <snapdev/poison.h>
 

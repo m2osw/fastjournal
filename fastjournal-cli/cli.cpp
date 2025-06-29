@@ -30,28 +30,28 @@
 #include    "cli.h"
 
 
-// fastjournal lib
+// fastjournal
 //
 #include    <fastjournal/version.h>
 
 
-// avdgetopt lib
+// avdgetopt
 //
 #include    <advgetopt/exception.h>
 
 
-// snaplogger lib
+// snaplogger
 //
 #include    <snaplogger/options.h>
 #include    <snaplogger/message.h>
 
 
-// boost lib
+// boost
 //
 #include    <boost/preprocessor/stringize.hpp>
 
 
-// snapdev lib
+// last include
 //
 #include    <snapdev/poison.h>
 

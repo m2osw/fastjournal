@@ -31,17 +31,17 @@
 #include    "cli.h"
 
 
-// advgetopt lib
+// advgetopt
 //
 #include    <advgetopt/exception.h>
 
 
-// C++ lib
+// C++
 //
 #include    <iostream>
 
 
-// snapdev lib
+// last include
 //
 #include    <snapdev/poison.h>
 

@@ -29,33 +29,33 @@
 #include    "server.h"
 
 
-// fastjournal lib
+// fastjournal
 //
 #include    <fastjournal/version.h>
 
 
-// avdgetopt lib
+// avdgetopt
 //
 #include    <advgetopt/exception.h>
 
 
-// snaplogger lib
+// snaplogger
 //
 #include    <snaplogger/message.h>
 #include    <snaplogger/options.h>
 
 
-// boost lib
+// boost
 //
 #include    <boost/preprocessor/stringize.hpp>
 
 
-// C lib
+// C
 //
 #include    <unistd.h>
 
 
-// snapdev lib
+// last include
 //
 #include    <snapdev/poison.h>
 

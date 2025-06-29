@@ -24,7 +24,7 @@
  * Journal library.
  */
 
-// libexcept lib
+// libexcept
 //
 #include <libexcept/exception.h>
 

@@ -31,7 +31,7 @@
 #include    <advgetopt/advgetopt.h>
 
 
-// eventdispatcher lib
+// eventdispatcher
 //
 #include    <eventdispatcher/signal_handler.h>
 
