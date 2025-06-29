@@ -58,17 +58,17 @@ work as expected:
   important when some processes should be run immediately (ASAP at least)
   opposed to processes that can wait.
 
-* No Duplicates -- we want to avoid having two requests for the same jobs;
-  in our case, it happens a lot that we update one value in a row and then
+* No Duplicates -- we want to avoid having two or more requests for the same
+  jobs; in our case, it happens a lot: we update one value in a row and then
   another and yet another and each time we send the row as being in need of
-  updating to the backend; that means we'd have to run the exact same backend
+  updating to some backend; that means we'd have to run the exact same backend
   job three times in a row when one time is really enough because the second
-  and third time will give the exact same results.
+  and third time give the exact same results (idempotent).
 
 * Not Immediate -- when we make changes, we want the backend to wait for the
   frontend to be done; the frontend may make changes to many different rows
   and that can have side effects to the rows we want updated (i.e. a list
-  points to row X, Y, Z and the sort of that list depend on the value of
+  points to row X, Y, Z and the sort of that list depends on the value of
   X, Y and Z...); for that reason we want to have a timestamp in the future
   for when the work as to be started.
 
