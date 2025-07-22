@@ -1,3 +1,9 @@
+fastjournal (1.0.9.1~jammy) jammy; urgency=high
+
+  * Bumped build version to rebuild on Launchpad.
+
+ -- Alexis Wilke <alexis@m2osw.com>  Tue, 22 Jul 2025 07:46:55 -0700
+
 fastjournal (1.0.9.0~noble) noble; urgency=high
 
   * Various clean ups.
