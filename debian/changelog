@@ -1,4 +1,4 @@
-fastjournal (1.0.9.0~noble) bionic; urgency=high
+fastjournal (1.0.9.0~noble) noble; urgency=high
 
   * Various clean ups.
   * Fixed destination of cmake file being installed.
