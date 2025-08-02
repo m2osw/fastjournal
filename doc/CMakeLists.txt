@@ -25,7 +25,7 @@
 ##
 ## Documentation
 ##
-AddDoxygenTarget( libfastjournal
+AddDoxygenTarget(fastjournal
     ${LIBFASTJOURNAL_VERSION_MAJOR}
     ${LIBFASTJOURNAL_VERSION_MINOR}
     ${LIBFASTJOURNAL_VERSION_PATCH}
