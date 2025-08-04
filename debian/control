@@ -29,13 +29,14 @@ Depends: libfastjournal (= ${binary:Version}), ${misc:Depends}
 Description: Development package for the C++ libfastjournal library.
  This library provides a fast journal functionality.
 
-Package: libfastjournal-doc
+Package: fastjournal-doc
 Section: doc
 Architecture: all
 Depends: ${misc:Depends}
-Description: Documentation for the C++ libfastjournal library.
+Description: Documentation for the C++ fastjournal library and tools.
  This package provides documentation about the C++ libfastjournal library
  used to quickly manage backend process requests (i.e. batches).
+ It also includes documentation about the client, server, and tools.
 
 Package: libfastjournal
 Section: libs
