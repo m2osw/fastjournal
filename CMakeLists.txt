@@ -30,7 +30,6 @@ find_package(SnapCMakeModules REQUIRED)
 find_package(AdvGetOpt        REQUIRED)
 find_package(EventDispatcher  REQUIRED)
 find_package(LibExcept        REQUIRED)
-find_package(SnapDoxygen              )
 find_package(SnapLogger       REQUIRED)
 
 SnapGetVersion(LIBFASTJOURNAL ${CMAKE_CURRENT_SOURCE_DIR})
